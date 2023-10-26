@@ -255,7 +255,7 @@ footer div.texto{
 
 
 
-@media screen and (min-width : 770px) {
+@media screen and (min-width : 771px) {
     header nav div.menu {
         display: none;
     }
@@ -320,5 +320,8 @@ footer div.texto{
     section.cultura .direita,
 section.cultura .esquerda {
     width: 70%;
+}
+header ul {
+    top: 140px;
 }
 }
