@@ -23,18 +23,21 @@ header {
 }
 
 header .logo {
-    width: 50vw;
+    width: 60vw;
     align-items: center;
 }
 
-header>.center {
+header > .center {
     display: flex;
     align-items: center;
     padding: 10px;
 }
+header > .center  .logo h1{
+    font-size: 25px
+}
 
 header nav {
-    width: 50vw;
+    width: 40vw;
     display: flex;
     justify-content: end;
 }
@@ -46,6 +49,7 @@ header nav div.menu img {
 }
 
 header ul {
+
     display: flex;
     list-style: none;
     transition: 0.5s;
@@ -262,10 +266,12 @@ footer div.texto{
 
 @media screen and (max-width : 770px) {
     header nav {
-        justify-content: end;
+        width: 35vw;
     }
+    header .logo{
+        width: 65vw;
+    } 
     
-
     header ul {
         display: none;
         position: absolute;
