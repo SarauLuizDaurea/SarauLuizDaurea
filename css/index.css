@@ -65,7 +65,7 @@ header ul li a:hover{
 }
 
 section.banner .banner-img {
-    background-image: url(/imagens/brasilidade.jpeg);
+    background-image: url(../imagens/brasilidade.jpeg);
     background-size: cover;
     background-position: center;
     height: 550px;
@@ -192,13 +192,13 @@ section.pessoas .center ul.galeria li > .img{
     border-radius: 100%;
 }
 section.pessoas .center .galeria li:nth-child(1) .img {
-    background-image: url(/imagens/PersonagensBrasileiros/GetulhoVagas.jpg);
+    background-image: url(../imagens/PersonagensBrasileiros/GetulhoVagas.jpg);
 }
 section.pessoas .center .galeria li:nth-child(2) .img {
-    background-image: url(/imagens/PersonagensBrasileiros/machado\ Assis.jpeg);
+    background-image: url(../imagens/PersonagensBrasileiros/machado\ Assis.jpeg);
 }
 section.pessoas .center .galeria li:nth-child(3) .img{
-    background-image: url(/imagens/PersonagensBrasileiros/Oscar\ Niemeyer.jpeg);
+    background-image: url(../imagens/PersonagensBrasileiros/Oscar\ Niemeyer.jpeg);
 }
 section.pessoas .center .galeria li h2{
     text-align: center;
