@@ -36,6 +36,7 @@ header>.center {
 header nav {
     width: 50vw;
     display: flex;
+    justify-content: end;
 }
 
 header nav div.menu img {
