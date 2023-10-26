@@ -54,13 +54,13 @@ function menuOpenClose() {
 });
 }
 function heightOrdem() {
+  
   var altura = $('header').outerHeight();
   $('.banner').css('margin-top', altura + 'px');
   $('header ul').css('top', altura + 'px');
 
 }
 
-window.addEventListener('load', heightOrdem);
-window.addEventListener('resize', heightOrdem););
+heightOrdem();
 menuOpenClose();
 scrolItem();
