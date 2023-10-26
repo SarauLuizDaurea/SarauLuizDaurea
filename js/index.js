@@ -60,6 +60,7 @@ function heightOrdem() {
 
 }
 
-heightOrdem();
+window.addEventListener('load', heightOrdem);
+window.addEventListener('resize', heightOrdem););
 menuOpenClose();
 scrolItem();
