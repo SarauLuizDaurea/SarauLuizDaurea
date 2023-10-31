@@ -209,13 +209,74 @@ section.pessoas .center .galeria li h2{
     text-align: center;
     padding: 10px;
 }
-footer{
-    background-color: gray;
-    height: 80px;
-    margin-top: 35px;
+
+section#Sarau{
+    background-color: green;
+    padding-bottom: 25px;
+
+        margin-top: 25px;
+}
+section#Sarau .musicasSaral .selectMusica{
+    width: 100%;
+    min-height: 50px;
+    background-color: yellow;
+    margin: 10px;
+    border-radius: 10px;
     display: flex;
     align-items: center;
-    overflow: hidden;
+    justify-content: space-around;
+    padding: 10px;
+}
+section#Sarau .musicasSaral .selectMusica .texto{
+    width: 80%;
+}
+
+
+section#Sarau .musicasSaral .selectMusica img{
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+section#Sarau .poemasSaral h3,section#Sarau .musicasSaral h3{
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+section#Sarau .poemasSaral .navegar{
+    display: flex;
+    justify-content: center;
+}
+
+section#Sarau .poemasSaral .navegar button{
+    background-color: yellow;
+    width: auto;
+    display: inline-block;
+    text-align: center;
+    padding: 5px;
+    border-radius: 10px;
+    transition: 0.4s;
+    border: 0px;
+    margin: 10px;
+    margin-bottom: 15px;
+}
+section#Sarau .poemasSaral .navegar button:hover{
+    background-color: rgb(255, 255, 30);
+    cursor: pointer;
+    color: blue;
+}
+section#Sarau .poemasSaral .conteudo{
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 15px;
+    padding: 40px 30px;
+    text-align: center;
+    transition: 0.4s;
+}
+
+footer{
+    background-color: gray;
+    height: auto;
+    display: flex;
+    align-items: center;
     padding: 10px;
 }
 footer .center{
@@ -223,9 +284,7 @@ footer .center{
     align-items: center;
     flex-wrap: wrap;
 }
-footer{
-    height: auto;
-}
+
 footer .social{
 width: 50%;
 box-sizing: border-box;
@@ -276,13 +335,12 @@ footer div.texto{
         display: none;
         position: absolute;
         left: 50%;
-        transform: translate(-50%,0);
+        transform: translate(calc(-50% - 10px),0);
         padding: 5px;
-
         background-color: yellow;
         border: 20px solid green;
         text-align: center;
-        width: 50%;
+        width: 70%;
     }
     header ul li{
         padding: 6px;
