@@ -194,7 +194,7 @@ Nas terras do sol, construímos nossa nação.<br>
 function PlayMusic() {
 
   let musicas =
-    ['audio/Baiana-Carlinhos Brown e Marcio Mello.mp3', 'audio/Canção do exilio-GonçalvesDias.mp3'];
+    ['../Baiana-Carlinhos Brown e Marcio Mello.mp3', '../Canção do exilio-GonçalvesDias.mp3'];
   let audio = new Audio();
   let idx = [-1, -1];
   let ativado = false;
